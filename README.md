@@ -3,8 +3,7 @@ While an Ingress service can offer load balancing and OWASP capabilities, it is 
 
 The solution is depicted in the diagram below
 
-![AKS with App G with Ingress](AKS with WAF.png)
-[[https://github.com/whereisyusuf/aks-with-ingress-and-appg/blob/master/AKS%20with%20WAF.png]]
+![AKS with App G with Ingress](/AKS%20with%20WAF.png)
 
 This sample builds on the resources created in the workshop [https://aksworkshop.io/]. Please refer to this for applicaiton related files and source code. 
 
