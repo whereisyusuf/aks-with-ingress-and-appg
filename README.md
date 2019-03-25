@@ -1,5 +1,9 @@
-# Aks-with-ingress-and-appg
-Sample that uses Azure Kubernetes Service (AKS) with an Application Gateway as a WAF and a NGinx ingress controller
+# Securing Aks with WAF 
+While an Ingress service can offer load balancing and OWASP capabilities, it is essential to secure your AKS cluster from the outside by way of adding a WAF. Options for WAF on Azure are using Application Gateway or any custom 3rd Party WAF on top of Azure IaaS. Given below is a sample that uses Azure Kubernetes Service (AKS) with an Application Gateway as a WAF and a NGinx ingress controller
+
+The solution is depicted in the diagram below
+
+
 
 This sample builds on the resources created in the workshop [https://aksworkshop.io/]. Please refer to this for applicaiton related files and source code. 
 
