@@ -6,6 +6,8 @@ The solution is depicted in the diagram below
 ![AKS with App G with Ingress](/AKS%20with%20WAF.png)
 
 This sample builds on the resources created in the workshop [https://aksworkshop.io/]. Please refer to this for applicaiton related files and source code. 
+As shown above, my application is hosted in an AKS cluster inside a subnet with an ingress that has an internal IP address. Another subnet has an Application Gateway with a front end public IP address, and the backend pool is configured with the Ingress IP address. NSGs at the AKS subnet ensure that it receives request only from the WAF subnet. 
+
 
 ## Step 1 - Build AKS Cluster
 
